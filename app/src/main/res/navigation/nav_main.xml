@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/addCatFragment">
+    <fragment
+        android:id="@+id/addCatFragment"
+        tools:layout="@layout/fragment_add_cat"
+        android:name="com.zahid.ansarandroidtest.view.fragments.AddCatFragment"
+        android:label="AddCatFragment" >
+        <action
+            android:id="@+id/action_addCatFragment_to_generalInfoFragment"
+            app:destination="@id/generalInfoFragment"
+            app:popUpTo="@id/generalInfoFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/generalInfoFragment"
+        tools:layout="@layout/fragment_general_info"
+        android:name="com.zahid.ansarandroidtest.view.fragments.GeneralInfoFragment"
+        android:label="GeneralInfoFragment" >
+        <action
+            android:id="@+id/action_generalInfoFragment_to_addCatFragment"
+            app:destination="@id/addCatFragment"
+            app:popUpTo="@id/addCatFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

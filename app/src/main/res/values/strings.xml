@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AnsarAndroidTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="how_people_may_reach_you">How people may reach you?</string>
+    <string name="in_person">In Person</string>
+    <string name="online_coming_soon">Online(Coming soon)</string>
+    <string name="your_services_are_presented_locally_people_will_either_come_to_your_store_or_meet_you_in_their_own_place">Your services are presented locally. People will either come to your store or meet you in their own place</string>
+    <string name="how_to_make_appointments_with_you">How to make appointments with you?</string>
+    <string name="book_a_time">Book a time</string>
+    <string name="drop_in">Drop in</string>
+    <string name="no_need_for_pre_registration_people_can_stop_by_your_business_at_any_of_the_available_times">No need for pre-registration people can stop by your business at any of the available times</string>
+</resources>
